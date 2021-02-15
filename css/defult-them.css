@@ -1,0 +1,26 @@
+
+
+.tool-box,
+.testimonials .carousel-indicators li.active{
+    border: 3px solid red;
+}
+.navbar-nav > li > .dropdown-menu{
+    border-top: 3px solid red;
+}
+
+.tool-box .glyphicon,
+li.active a ,
+.dropdown-menu > li > a:hover,
+.dropdown-menu .divider,
+.carousel-indicators .active {
+    background-color: red !important;
+}
+
+.navbar-default .navbar-brand span,
+.about h1 span,
+.footer .h3,
+.footer .copyright span,
+.testimonials span,
+.scroll-to-tob::after{
+    color: red;
+}
